@@ -4,6 +4,7 @@ export const navLinks = [
   { label: 'Residency', href: '#residency' },
   { label: 'Timeline', href: '#timeline' },
   { label: 'Mentorship', href: '#mentorship' },
+  { label: 'Partners', href: '#partners' },
 ]
 
 export const heroStats = [
@@ -60,3 +61,11 @@ export const communityGallery = [
   { src: '/photos/hacknitr-4.jpg', alt: 'Collage of multiple HackNITR community moments' },
 ]
 
+export const partners = [
+  'HackNITR',
+  'SIMATS',
+  'Deep Tech',
+  'Open Innovation Lab',
+  'Startup Grid',
+  'Builder Circle',
+]
