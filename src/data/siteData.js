@@ -52,3 +52,10 @@ export const opportunities = [
   'Portfolio and case study polishing with expert critiques',
   'Direct introductions to hiring managers and founders',
 ]
+
+export const communityGallery = [
+  { src: '/photos/hacknitr-1.jpg', alt: 'Hackathon team group photo at auditorium' },
+  { src: '/photos/hacknitr-2.jpg', alt: 'HackNITR participants during meetup session' },
+  { src: '/photos/hacknitr-3.jpg', alt: 'Community hall group picture with participants' },
+  { src: '/photos/hacknitr-4.png', alt: 'Collage of multiple HackNITR community moments' },
+]

@@ -1,6 +1,6 @@
 # Residency Website Frontend
 
-A production-ready responsive landing page built with React, Vite, Tailwind CSS, Framer Motion, and Lucide React. The UI is designed with a premium modern aesthetic inspired by high-end hackathon and startup program branding.
+A production-ready responsive landing page built with React, Vite, Tailwind CSS, Framer Motion, and Lucide React.
 
 ## Tech Stack
 
@@ -27,6 +27,17 @@ A production-ready responsive landing page built with React, Vite, Tailwind CSS,
 npm install
 npm run dev
 ```
+
+## Add Real Event Photos
+
+Place your provided images here with these exact names:
+
+- `public/photos/hacknitr-1.jpg`
+- `public/photos/hacknitr-2.jpg`
+- `public/photos/hacknitr-3.jpg`
+- `public/photos/hacknitr-4.png`
+
+They are already wired into animated gallery sections.
 
 ## Available Scripts
 

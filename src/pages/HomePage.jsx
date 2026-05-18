@@ -1,5 +1,6 @@
 import MainLayout from '../layouts/MainLayout'
 import AboutSection from '../sections/AboutSection'
+import CommunityGallerySection from '../sections/CommunityGallerySection'
 import CtaSection from '../sections/CtaSection'
 import FeaturesSection from '../sections/FeaturesSection'
 import Footer from '../sections/Footer'
@@ -16,6 +17,7 @@ function HomePage() {
       <Navbar />
       <main>
         <HeroSection />
+        <CommunityGallerySection />
         <AboutSection />
         <FeaturesSection />
         <ResidencySection />
