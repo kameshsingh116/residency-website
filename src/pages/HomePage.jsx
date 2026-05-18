@@ -1,9 +1,18 @@
+import MainLayout from '../layouts/MainLayout'
+import AboutSection from '../sections/AboutSection'
+import CtaSection from '../sections/CtaSection'
+import FeaturesSection from '../sections/FeaturesSection'
+import Footer from '../sections/Footer'
 import HeroSection from '../sections/HeroSection'
-import { AboutSection, CtaSection, FeaturesSection, Footer, InternshipSection, MentorshipSection, Navbar, ResidencySection, TimelineSection } from '../sections/Sections'
+import InternshipSection from '../sections/InternshipSection'
+import MentorshipSection from '../sections/MentorshipSection'
+import Navbar from '../sections/Navbar'
+import ResidencySection from '../sections/ResidencySection'
+import TimelineSection from '../sections/TimelineSection'
 
 function HomePage() {
   return (
-    <div className="overflow-x-clip">
+    <MainLayout>
       <Navbar />
       <main>
         <HeroSection />
@@ -16,7 +25,7 @@ function HomePage() {
         <CtaSection />
       </main>
       <Footer />
-    </div>
+    </MainLayout>
   )
 }
 
