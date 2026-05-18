@@ -10,7 +10,7 @@ function ResidencySection() {
         <SectionHeading eyebrow="Residency Program" title="Choose Your Track and Build in Real-World Pods" />
         <div className="mt-10 grid gap-4 sm:grid-cols-2">
           {tracks.map((track) => (
-            <div key={track} className="rounded-xl border border-white/10 bg-white/5 p-5 text-sm sm:text-base">
+            <div key={track} className="rounded-xl border border-white/15 bg-surface/80 p-5 text-sm text-slate-100 shadow-glow sm:text-base">
               <div className="flex items-center gap-3"><GraduationCap size={18} className="text-accent" />{track}</div>
             </div>
           ))}
