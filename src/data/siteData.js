@@ -59,6 +59,7 @@ export const communityGallery = [
   { src: '/photos/hacknitr-2.jpg', alt: 'HackNITR participants during meetup session' },
   { src: '/photos/hacknitr-3.jpg', alt: 'Community hall group picture with participants' },
   { src: '/photos/hacknitr-4.jpg', alt: 'Collage of multiple HackNITR community moments' },
+  { src: '/photos/hacknitr-5.jpeg', alt: 'Additional HackNITR event memory photo' },
 ]
 
 export const partners = [
